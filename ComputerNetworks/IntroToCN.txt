@@ -1,0 +1,194 @@
+What are Computer Networks?
+
+A computer network is a system where multiple computers or devices are connected to share resources, data, and applications.
+These connections can be established using wired or wireless communication channels.
+
+Components of a Network
+
+1. Hardware Components
+
+-> Nodes (End Devices): Computers, smartphones, or servers that exchange data.
+-> Transmission Media:
+    Wired: Ethernet cables, fiber optics.
+    Wireless: Wi-Fi, Bluetooth.
+-> Network Interface Card (NIC): Hardware allowing devices to connect to a network.
+    Switches and Routers:
+    Switch: Connects devices within a local network.
+    Router: Connects multiple networks and directs data packets.
+
+2. Software Components
+
+    Protocols: Rules governing communication (e.g., TCP/IP, HTTP).
+    Network Operating System (NOS): Software managing network resources (e.g., Windows Server).
+
+
+Example: Home Network
+
+Router: Connects the home to the internet.
+Devices: Phones, laptops, smart TVs.
+Media: Wi-Fi for wireless connectivity.
+
+Advantages of Networking:
+
+Resource Sharing
+Load Balancing
+Data Accessibility
+Communication
+Scalability
+
+
+
+--------------------------------------------------------------------------------
+
+
+Types Of Networks:
+
+-> LAN (LOCAL AREA NETWORK) -----------------
+
+A LAN connects devices within a small geographical area, such as a home, office, or campus.
+It typically uses Ethernet cables or Wi-Fi for connectivity.
+It is designed to connect devices like computers, printers, and servers to share resources.
+
+Real-Life Analogy
+
+Think of LAN as your home Wi-Fi network. It connects all your devices—laptops, phones, and smart TVs—within a small area,
+allowing them to share internet access and resources like printers.
+
+Key Features
+
+High-speed data transfer.
+Limited geographical range (usually a few kilometers).
+Easy setup and maintenance.
+
+
+-> WAN (WIDE AREA NETWORK) --------------
+
+A WAN connects devices over a large geographical area, and connects multiple smaller networks, like LANs, together.
+The internet is the most common example of a WAN.
+
+
+Real-Life Analogy
+
+Imagine WAN as a vast highway system connecting different cities (LANs).
+It facilitates communication and data sharing between distant locations.
+
+Key Features
+
+Covers large geographical areas (countries, continents).
+Typically slower than LAN due to long distances.
+High implementation and maintenance costs.
+
+
+-> MAN (METROPOLITAN AREA NETWORK) -----------------
+
+A Metropolitan Area Network (MAN) connects multiple LANs within a city or metropolitan area.
+It is larger than a LAN but smaller than a WAN.
+
+Real-Life Analogy
+
+Think of MAN as a city’s public transportation system.
+It connects various neighborhoods (LANs) to facilitate movement (data transfer) within the city.
+
+Key Features
+
+Covers areas up to 50 km.
+Used for communication within cities.
+Often operated by service providers.
+
+
+-> PAN (PERSONAL AREA NETWORK) -----------------
+
+A Personal Area Network (PAN) connects devices within a very small area, typically within a range of a few meters.
+
+ReAl-Life Analogy
+
+Think of PAN as a personal Bluetooth connection between your smartphone and wireless headphones.
+
+
+Key Features
+
+Covers a very short range (up to 10 meters).
+Used for personal devices like smartphones, tablets, and wearables.
+
+
+
+Comparision
+
+
+FEATURE                PAN                                 LAN                           WAN                           MAN
+
+Area                very small                      small area                       medium area                    large area
+
+Speed               very high                       high speed                       moderate to low                 moderate
+
+cost                very low                        low cost                         high cost                       moderate cost
+
+Examples            Bluetooth               Home network, Office LAN                    Internet                City-wide networks,
+                                                                                                                Campus networks
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+-> Internet
+
+ interconnected network of computers and devices worldwide, enabling data sharing, communication, and access to information.
+
+
+
+ Components
+ Client Devices: Smartphones, laptops, and desktops.
+ Servers: Host websites, applications, and data.
+ Backbone Networks: High-capacity fiber optic cables connecting continents.
+ ISPs (Internet Service Providers): Gateways for users to access the internet.
+
+
+
+->  Network Protocols for Interconnectivity
+
+Key Protocols
+Transmission Control Protocol/Internet Protocol (TCP/IP): Facilitates end-to-end data transfer.
+                                                          Breaks data into packets and reassembles them at the destination.
+
+Hypertext Transfer Protocol (HTTP): Manages communication between web browsers and servers.
+
+Simple Mail Transfer Protocol (SMTP): Handles email delivery.
+
+File Transfer Protocol (FTP): Transfers files between systems.
+
+Domain Name System (DNS): Translates human-readable domain names (e.g., www.takeuforward.com) into IP addresses.
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+What are Network Topologies?
+
+
+A network topology refers to the arrangement or layout of devices (nodes) and connections in a network.
+It determines how data flows between devices and the overall structure of a network.
+
+Types of Topologies
+Physical Topology: The physical arrangement of cables, computers, and other devices.
+Logical Topology: The way data flows within the network, irrespective of its physical design.
+
+
+Star topology :
+In a star topology, all devices are connected to a central hub or switch. Data passes through the central node to reach the target device.
+
+Ring Topology
+In a ring topology, each device is connected to two others, forming a circular loop.
+Data travels in one direction until it reaches its destination.
+
+
+Mesh Topology
+In a mesh topology, every device connects directly to every other device. It provides high fault tolerance and redundancy.
+
+
+Bus Topology
+In a bus topology, all devices share a single communication line (bus).
+Data is broadcast to all devices, but only the intended recipient processes it.
